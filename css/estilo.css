@@ -1,0 +1,134 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: Candara;
+    src: url(../fonts/CANDARA.TTF);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/*fontes*/
+.fonte-candara {
+    font-family: Candara;
+}
+
+.fonte-lobster {
+    font-family: Lobster;
+}
+
+/*alinhar elementos*/
+.centro {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*paleta de cores*/
+.bg-blue {
+    background-color: #ffffff;
+}
+
+.bg-dark-blue {
+    background-color: #003668;
+}
+
+.bg-light-blue {
+    background-color: #D8FFFD;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(#003668, #D8FFFD);
+}
+
+.bg-blue-2 {
+    background-color: #00C3FF;
+}
+
+/*sombras*/
+.shadow {
+    text-shadow: 2px 2px 10px black
+}
+
+.box-shadow {
+    box-shadow: 0px 4px 15px black;
+}
+
+/*imagem responsiva*/
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+
+/*estilo icone de pesquisa e icone menu*/
+.icone {
+    border: none;
+    color: white;
+}
+
+
+/*parallax para anuncio*/
+.parallax {
+    background-image: url("../images/banner-outono.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/*estilo produtos cards*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.preco {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.card button:hover {
+    background-color: #00C3FF;
+    color: #003668;
+    font-size: 120%;
+}
+
+/*estilo icone pesquisa*/
+#pesquisa i {
+    font-size: 20px;
+    transition: 1s;
+}
+
+#pesquisa i:hover {
+    font-size: 25px;
+}
+.orange_text{
+    color: orangered;
+}

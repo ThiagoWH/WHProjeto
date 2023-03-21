@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- LINKS PARA ESTILIZACAO -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/a076d05399.js"></script>
+    <title>MaduOutfit - Roupas que falam por você.</title>
+</head>
+
+<body>
+    <!-- INICIO DA PAGINA HTML -->
+    <div class="container-fluid">
+        <!-- MENU -->
+        <header class="sticky-top">
+            <nav class="row fonte-candara navbar navbar-expand-md navbar-dark bg-blue">
+                <!-- LOGO -->
+                <figure class="centro col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 navbar-brand box-shadow">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logo MaduOutfit" title="MaduOutfit" style="width: 100%;">
+                    </a>
+                </figure>
+                <!-- ICONE MENU RESPONSIVO -->
+                <button class="navbar-toggler box-shadow icone" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- DIV ITENS MENU -->
+                <div class="p-3 collapse navbar-collapse box-shadow" id="collapsibleNavbar">
+                    <!-- BARRA DE PESQUISA -->
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Digite a sua busca..." name="pesquisar">
+                        <button type="submit" id="pesquisa" class="bg-blue icone">
+                            <i class='fas fa-search'></i>
+                        </button>
+                    </form>
+                    <!-- LISTA ITENS MENU -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-1 ml-1">
+                            <a class="nav-link" href="#">Moda Masculina</a>
+                        </li>
+                        <li class="mr-1 ml-1 nav-item">
+                            <a class="nav-link" href="feminino.html">Moda Feminina</a>
+                        </li>
+                        <li class="mr-1 ml-1 nav-item">
+                            <a class="nav-link" href="infantil.html">Moda Infantil</a>
+                        </li>
+                        <li class="mr-1 ml-1 nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="mr-1 ml-1 nav-item">
+                            <a class="nav-link" href="#">Sobre Nós</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- PRODUTOS EM ALTA -->
+        <section class="row p-5 fonte-candara box-shadow bg-blue">
+            <h1 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 box-shadow bg-dark-blue" style="color: #d8fffd">Moda Feminina</h1>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/jeans_claro.png" alt="Calça Jeans Feminina" style="width:100%">
+                <h4>Calça Jeans Feminina</h4>
+                <p class="preco">R$49,90</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/body_preto_branco.png" alt="Body Preto e Branco" style="width:100%">
+                <h4>Body Preto e Branco</h4>
+                <p class="preco">R$59,90</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/camiseta.png" alt="Camiseta Feminina" style="width:100%">
+                <h4>Camiseta Feminina</h4>
+                <p class="preco">R$29,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/camiseta_laco.png" alt="Camiseta Laco" style="width:100%">
+                <h4>Camiseta com Laço</h4>
+                <p class="preco">R$24,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/camiseta_renda.png" alt="Camiseta Renda" style="width:100%">
+                <h4>Camiseta com Renda</h4>
+                <p class="preco">R$49,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/vestido_bolinhas.png" alt="Vestido de Bolinhas<" style="width:100%">
+                <h4>Vestido de Bolinhas</h4>
+                <p class="preco">R$49,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/jeans_feminino.png" alt="Calça jeans feminino<" style="width:100%">
+                <h4>Calça jeans Azul Escuro</h4>
+                <p class="preco">R$69,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/vestido_azul.png" alt="Vestido azul<" style="width:100%">
+                <h4>Vestido Azul Feminino</h4>
+                <p class="preco">R$59,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card p-2 mt-2">
+                <img src="images/feminino/vestido_florido.png" alt="Vestido Florido<" style="width:100%">
+                <h4>Vestido Florido</h4>
+                <p class="preco">R$39,99</p>
+                <p><button class="bg-dark-blue box-shadow">Solicitar pagamento.</button></p>
+            </div>
+        </section>
+        <!-- PARALLAX PARA PROPAGANDA DA LOJA -->
+        <div class="parallax p-5 row">
+            <h3 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center shadow fonte-candara" style="color: #D8FFFD">Veja as tendências da moda para o Outono.</h3>
+        </div>
+
+        <!-- RODAPÉ -->
+        <footer class="p-3 bg-dark-blue row text-center box-shadow fonte-candara">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 shadow" style="font-size: 80%; color: #D8FFFD">MaduOutfit &copy; Copyright 2020.</div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 shadow" style="font-size: 80%; color: #D8FFFD">Política de Privacidade | Termos de Uso</div>
+        </footer>
+    </div>
+</body>
+
+</html>
